@@ -1,0 +1,211 @@
+/*
+/* z-index order */*/*/
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   height: 90%;
+ }
+ 
+
+/*
+
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--col-01);
+  color: var(--col-02);
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-size: 21px;
+  text-align: justify;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #131313;
+}
+
+* {box-sizing:border-box}
+
+/
+*/
+/*
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  height: 100vh; /* 100% of the viewport height */
+  body{
+    background-color: #181818;
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-size: cover; /* Scale to cover the container */
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  
+  
+  .topbar{
+    background-color: #181818;
+    width: fill page;
+    height: 6vh;
+    text-align: center; /* Center the menu horizontally */
+    margin-top: 0%;
+  
+  }
+  
+  .menu ul {
+    padding-top: 0.7%;
+    list-style: none; /* Remove default list styles */
+    padding-left: 14%; /* Remove default padding */
+    align-items: center;
+    margin-top: 0%;
+  }
+  
+  .menu li {
+    display: inline-block; /* Display list items side by side */
+    margin-right: 15%; /* Add spacing between menu items */
+    font-size: 1vw;
+    margin-top: 0%;
+  
+  }
+  .menu a {
+    color: white; /* Set the font color */
+    font-family: monospace; /* Specify the font family */
+    font-size: 85%; /* Adjust the font size as needed */
+    text-decoration: none; /* Remove underline */
+    transition:0.3s ease-in-out; /* Smooth transition for font size */
+    display: inline-block; /* Make the link an inline block element */
+    padding: 10px; /* Add padding to increase the hover area */
+}
+
+.menu a:hover {
+    background-color: #535353; /* Change color on hover (you can choose any color) */
+    border-radius:75%;
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+
+}
+
+.code{
+  float: left;
+  width: 24%;
+  padding-left: 10%;
+}
+
+
+  /* desktop*/
+  @media (min-width: 1000px) {
+    body  {
+       background-repeat: no-repeat; /* Prevent tiling */
+    }
+  }
+
+
+.mainbody{
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 3%;
+}
+
+img {
+  padding: 2.5%;
+  width: 50%;
+}
+p {
+  color: rgb(219, 219, 219);
+  font-family: monospace;
+  position: relative;
+  padding-top: 1%;
+  padding-left: 15%;
+  padding-right: 15% ;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 115%;
+}
+
+
+h1 {
+  color: rgb(219, 219, 219);
+  font-family: monospace;
+  position: relative;
+}
+video{
+  padding-top: 2%;
+}
+
+
+
+
+ /* Mobile :320px. */
+ @media (max-width: 999px) {
+  body{
+    background-color: #181818;
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-size: cover; /* Scale to cover the container */
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  
+  .topbar{
+    padding-top: 10%;
+    background-color: #181818;
+    width: fill page;
+    height: 6vh;
+    text-align: center; /* Center the menu horizontally */
+    margin-top: 0%;
+  
+  }
+  .menu ul {
+    padding-top: 0.2%;
+    list-style: none; /* Remove default list styles */
+    padding-left: 1%; /* Remove default padding */
+    align-items: center;
+    margin-top: 0%;
+  }
+  .menu li {
+    display: inline-block; /* Display list items side by side */
+    margin-right: 2%; /* Add spacing between menu items */
+    font-size: 13px;
+    margin-top: 1%;
+  
+  }
+
+  video{
+    padding-top: 2%;
+    width: 85%;
+  }
+  
+  img {
+    padding: 2.5%;
+    width: 100%;
+  }
+  p {
+    color: rgb(219, 219, 219);
+    font-family: monospace;
+    position: relative;
+    font-size: 90%;
+    text-align: center;
+  }
+  
+ 
+}
