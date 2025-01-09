@@ -61,14 +61,12 @@ body{
 }
 
 
-.topbar{
-  padding-top: 1.4%;
+.topbar {
+
   background-color: #181818;
-  width: fill page;
+  width: fill page; /* Kept as per your request */
   height: 6vh;
   text-align: center; /* Center the menu horizontally */
-  margin-top: 0%;
-
 }
 
 .menu ul {
@@ -86,23 +84,20 @@ body{
   margin-top: 0%;
 
 }
+
 .menu a {
   color: white; /* Set the font color */
   font-family: monospace; /* Specify the font family */
   font-size: 85%; /* Adjust the font size as needed */
   text-decoration: none; /* Remove underline */
-  transition:0.3s ease-in-out; /* Smooth transition for font size */
+  transition: 0.3s ease-in-out; /* Smooth transition for font size */
   display: inline-block; /* Make the link an inline block element */
   padding: 10px; /* Add padding to increase the hover area */
 }
-.menu a line {
-  background-color: #535353; /* Change color on hover (you can choose any color) */
-  border-radius:50%;
-}
 
 .menu a:hover {
-  background-color: #535353; /* Change color on hover (you can choose any color) */
-  border-radius:50%;
+  background-color: #535353; /* Change color on hover */
+  border-radius: 50%;
   cursor: pointer; /* Show pointer cursor on hover */
 }
 
