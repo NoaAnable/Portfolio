@@ -74,14 +74,14 @@ body{
 .menu ul {
   padding-top: 0.2%;
   list-style: none; /* Remove default list styles */
-  padding-left: 14%; /* Remove default padding */
+  padding-left: 10%; /* Remove default padding */
   align-items: center;
   margin-top: 0%;
 }
 
 .menu li {
   display: inline-block; /* Display list items side by side */
-  margin-right: 15%; /* Add spacing between menu items */
+  margin-right: 10%; /* Add spacing between menu items */
   font-size: 1vw;
   margin-top: 0%;
 
