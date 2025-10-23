@@ -64,6 +64,10 @@ body{
     align-items: center;
     margin-top: 0%;
   }
+
+.des {
+padding: 20%; 
+}
   
   .menu li {
     display: inline-block; /* Display list items side by side */
