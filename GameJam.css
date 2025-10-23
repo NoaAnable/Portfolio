@@ -101,25 +101,8 @@ body{
   .ima{
     border-radius: 50%;
   }
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 6fr); /* Create 3 columns */
-    gap: 2%; /* Adjust spacing between images */
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
+ 
 
-.gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    transition: transform 0.3s ease; /* Add a smooth hover effect */
-}
-
-.gallery img:hover {
-    transform: scale(1.05); /* Enlarge the image on hover */
-}
   
 .ima{
   border-radius: 50%;
@@ -185,12 +168,4 @@ a{
       text-decoration: none; /* Remove underline */
     }
 
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr); /* Create 3 columns */
-    gap: 2%; /* Adjust spacing between images */
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-   }
+ 
